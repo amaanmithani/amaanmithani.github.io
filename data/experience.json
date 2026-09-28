@@ -1,0 +1,97 @@
+{
+  "heading": "Experience",
+  "positions": [
+    {
+      "company": "Knowledge Agents",
+      "title": "Software Engineer",
+      "location": "",
+      "startDate": "2026",
+      "endDate": "Present",
+      "description": "Architected the agent-orchestration core (LangGraph, MCP) powering source-cited automated support across 80+ languages, with stateful multi-step pipelines, persistent memory, and a rubric-based scoring layer enforcing structured JSON responses.\nCut the effort to integrate or swap an LLM provider to a single runtime config change by building a provider-agnostic RAG layer that unifies 4 model backends (Anthropic, OpenAI, Google, Azure) behind one interface.\nEliminated N+1 query bottlenecks in the data layer by implementing connection pooling and batch endpoints across a full-stack platform (React, TypeScript, Express, PostgreSQL) with Stripe usage-based billing.",
+      "achievements": [
+        "Architected the agent-orchestration core (LangGraph, MCP) powering source-cited automated support across 80+ languages, with stateful multi-step pipelines, persistent memory, and a rubric-based scoring layer enforcing structured JSON responses.",
+        "Cut the effort to integrate or swap an LLM provider to a single runtime config change by building a provider-agnostic RAG layer that unifies 4 model backends (Anthropic, OpenAI, Google, Azure) behind one interface.",
+        "Eliminated N+1 query bottlenecks in the data layer by implementing connection pooling and batch endpoints across a full-stack platform (React, TypeScript, Express, PostgreSQL) with Stripe usage-based billing."
+      ],
+      "technologies": [
+        "LangGraph",
+        "MCP",
+        "RAG",
+        "Anthropic",
+        "OpenAI",
+        "Google",
+        "Azure",
+        "React",
+        "TypeScript",
+        "Express",
+        "PostgreSQL",
+        "Stripe"
+      ]
+    },
+    {
+      "company": "Haven",
+      "title": "Founding Engineer (Co-Founder)",
+      "location": "",
+      "startDate": "2024",
+      "endDate": "2025",
+      "description": "Built and scaled a privacy app in Flutter with a serverless Firebase backend (Firestore, Auth, Storage) on GCP, securely handling 300+ early users, load-tested to support 5k+ concurrent sessions with <200ms latency.\nOptimized an LLM analytics pipeline using Redis caching and async queues across 3 OpenAI models, cutting redundant calls and reducing cloud costs by 37% while improving throughput.\nLed end-to-end development with CI/CD automation and QA, mentoring junior developers and accelerating feature releases by 30%, while securing Top 3 finalist out of 150+ teams at NYU Stern’s 2025 Entrepreneur Challenge with a feature in Entrepreneur Magazine.",
+      "achievements": [
+        "Built and scaled a privacy app in Flutter with a serverless Firebase backend (Firestore, Auth, Storage) on GCP, securely handling 300+ early users, load-tested to support 5k+ concurrent sessions with <200ms latency.",
+        "Optimized an LLM analytics pipeline using Redis caching and async queues across 3 OpenAI models, cutting redundant calls and reducing cloud costs by 37% while improving throughput.",
+        "Led end-to-end development with CI/CD automation and QA, mentoring junior developers and accelerating feature releases by 30%, while securing Top 3 finalist out of 150+ teams at NYU Stern’s 2025 Entrepreneur Challenge with a feature in Entrepreneur Magazine."
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "Firestore",
+        "Auth",
+        "Storage",
+        "GCP",
+        "Redis",
+        "OpenAI",
+        "CI/CD"
+      ]
+    },
+    {
+      "company": "Enpointe IO",
+      "title": "Software Engineer",
+      "location": "",
+      "startDate": "2024",
+      "endDate": "2024",
+      "description": "Engineered the full-stack architecture for Outlook India’s news platform, (1.8M+ monthly visits) implementing in-memory caching, async REST API calls, and load balancing, reducing page load latency by 20%.\nRe-designed backend services in Node.js and MongoDB, introducing compound indexes, batch updates, and parallelized queries, with automated unit tests, improving data retrieval for 20k+ student records by 30%.\nPartnered with senior engineers, product managers, and designers to deliver React-based content features, improving search visibility by 15% while maintaining 99.99% uptime during breaking news traffic spikes (100k+ concurrent users).",
+      "achievements": [
+        "Engineered the full-stack architecture for Outlook India’s news platform, (1.8M+ monthly visits) implementing in-memory caching, async REST API calls, and load balancing, reducing page load latency by 20%.",
+        "Re-designed backend services in Node.js and MongoDB, introducing compound indexes, batch updates, and parallelized queries, with automated unit tests, improving data retrieval for 20k+ student records by 30%.",
+        "Partnered with senior engineers, product managers, and designers to deliver React-based content features, improving search visibility by 15% while maintaining 99.99% uptime during breaking news traffic spikes (100k+ concurrent users)."
+      ],
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "React",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Wolters Kluwer",
+      "title": "Software Engineer Intern",
+      "location": "",
+      "startDate": "2023",
+      "endDate": "2023",
+      "description": "Architected and deployed a Generative AI Sales Rep Assistant chatbot (Python, Java, AWS Lambda/S3/DynamoDB) that analyzed 9k+ conversations in real time, collaborating with sales leadership and ML teams for adoption by 200+ reps.\nFine-tuned GPT-3.5 with embeddings and NLP pipelines, achieving 92% intent classification accuracy and less than 180ms latency while scaling to 10k+ daily chats with fault-tolerant processing and monitoring via AWS CloudWatch.\nIncreased sales conversions by 30% and cut call preparation time by 50%, earning 1st place in the 2023 Annual Innovation Tournament Hackathon out of 600+ participants.",
+      "achievements": [
+        "Architected and deployed a Generative AI Sales Rep Assistant chatbot (Python, Java, AWS Lambda/S3/DynamoDB) that analyzed 9k+ conversations in real time, collaborating with sales leadership and ML teams for adoption by 200+ reps.",
+        "Fine-tuned GPT-3.5 with embeddings and NLP pipelines, achieving 92% intent classification accuracy and less than 180ms latency while scaling to 10k+ daily chats with fault-tolerant processing and monitoring via AWS CloudWatch.",
+        "Increased sales conversions by 30% and cut call preparation time by 50%, earning 1st place in the 2023 Annual Innovation Tournament Hackathon out of 600+ participants."
+      ],
+      "technologies": [
+        "Python",
+        "Java",
+        "AWS Lambda",
+        "S3",
+        "DynamoDB",
+        "GPT-3.5",
+        "AWS CloudWatch"
+      ]
+    }
+  ]
+}

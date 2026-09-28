@@ -1,0 +1,15 @@
+{
+  "greeting": "Hello, I'm",
+  "name": "Amaan Mithani",
+  "nameLine1": "Amaan",
+  "nameLine2": "Mithani",
+  "title": "Software Engineer",
+  "tagline": "Building elegant solutions to complex problems",
+  "ctaText": "View My Work",
+  "ctaLink": "#projects",
+  "socialLinks": {
+    "github": "https://github.com/amaanmithani",
+    "linkedin": "https://www.linkedin.com/in/amaanmithani/",
+    "email": "am14647@nyu.edu"
+  }
+}

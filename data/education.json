@@ -1,0 +1,26 @@
+{
+  "heading": "Education",
+  "entries": [
+    {
+      "institution": "New York University",
+      "degree": "Master of Science",
+      "field": "Computer Engineering",
+      "startDate": "2026",
+      "endDate": "2026",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "institution": "Symbiosis International University",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science",
+      "startDate": "2023",
+      "endDate": "2023",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "Aga Khan Foundation International Scholarship"
+  ]
+}

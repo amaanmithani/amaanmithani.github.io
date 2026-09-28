@@ -1,0 +1,78 @@
+{
+  "heading": "Skills & Expertise",
+  "categories": [
+    {
+      "name": "Languages",
+      "items": [
+        "C/C++",
+        "Java",
+        "Python",
+        "JavaScript",
+        "Go",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "items": [
+        "Flask",
+        "React",
+        "React Native",
+        "Next.js",
+        "Angular",
+        "SwiftUI",
+        "Flutter",
+        "Express",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "GCP",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "Git",
+        "Redis",
+        "Firebase",
+        "Stripe",
+        "AWS Lambda",
+        "S3",
+        "DynamoDB",
+        "AWS CloudWatch"
+      ]
+    },
+    {
+      "name": "Technical",
+      "items": [
+        "REST API",
+        "CI/CD",
+        "AI & Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Pandas",
+        "OpenCV",
+        "YOLO",
+        "LLMs",
+        "CUDA",
+        "NLP",
+        "Transformers (Hugging Face)",
+        "Multi-Agent Systems",
+        "RAG Pipelines",
+        "Apache Spark",
+        "Hadoop",
+        "Redux",
+        "GraphQL",
+        "Jenkins",
+        "GitHub Actions"
+      ]
+    }
+  ]
+}
