@@ -1,0 +1,22 @@
+{
+  "copyright": "Amaan Mithani",
+  "year": "2026",
+  "tagline": "Crafting digital experiences",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/amaanmithani",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/amaanmithani/",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:am14647@nyu.edu",
+      "icon": "email"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "heading": "Selected Projects",
+  "projects": [
+    {
+      "name": "Interactive Chat Avatar with LLMs",
+      "description": "Orchestrated and deployed an end-to-end, real-time chat avatar by integrating 3 distinct AI systems (LLaMA, SadTalker, ElevenLabs), enabling video and voice responses under 4s latency.",
+      "technologies": [
+        "PyTorch",
+        "LangChain",
+        "OpenCV",
+        "AWS",
+        "LLaMA",
+        "SadTalker",
+        "ElevenLabs"
+      ],
+      "category": "Data Science",
+      "liveUrl": "https://github.com/amaanmithani/chat_avatar_llm",
+      "githubUrl": ""
+    },
+    {
+      "name": "Hybrid Optimization of NLP and Vision Transformers using RKD and QLoRA",
+      "description": "Attained up to a 10× reduction in model size with <7% accuracy drop using Recurrent KD and QLoRA for multi-stage compression of NLP and Vision Transformer models.",
+      "technologies": [
+        "Recurrent KD",
+        "QLoRA",
+        "NLP",
+        "Vision Transformer"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://www.ijraset.com/best-journal/hybrid-optimization-of-nlp-and-vision-transformers-using-recursive-knowledge-distillation-and-qlora",
+      "githubUrl": ""
+    },
+    {
+      "name": "RKD_BERT_VIT",
+      "description": "GitHub repository for Hybrid Optimization of NLP and Vision Transformers using Recursive Knowledge Distillation and QLoRA.",
+      "technologies": [
+        "PyTorch",
+        "Transformers",
+        "Knowledge Distillation",
+        "QLoRA"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://github.com/amaanmithani/RKD_BERT_VIT",
+      "githubUrl": ""
+    },
+    {
+      "name": "triton-attn",
+      "description": "FlashAttention-2 style attention in Triton, forward + backward, measured on a T4 (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/triton-attn",
+      "githubUrl": "https://github.com/amaanmithani/triton-attn"
+    },
+    {
+      "name": "structbench",
+      "description": "How reliably do LLMs return schema-valid JSON? Prompt-only vs JSON mode vs grammar-constrained vs repair loop, with Wilson intervals (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/structbench",
+      "githubUrl": "https://github.com/amaanmithani/structbench"
+    },
+    {
+      "name": "sales-copilot",
+      "description": "Live sales-call copilot: streaming faster-whisper ASR + cue detection, measured WER, F1 and latency (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/sales-copilot",
+      "githubUrl": "https://github.com/amaanmithani/sales-copilot"
+    },
+    {
+      "name": "raftkv",
+      "description": "Replicated KV store on a from-scratch Raft: PreVote, snapshots, client sessions, linearizability-checked under 1,000 fault schedules, WASM visualizer (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Go",
+        "Python",
+        "HTML",
+        "Shell"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/raftkv",
+      "githubUrl": "https://github.com/amaanmithani/raftkv"
+    },
+    {
+      "name": "polyglot-rag",
+      "description": "Multilingual support RAG with an honest 24-language retrieval table (Belebele) (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/polyglot-rag",
+      "githubUrl": "https://github.com/amaanmithani/polyglot-rag"
+    },
+    {
+      "name": "newsload-lab",
+      "description": "Breaking-news load lab: Next.js ISR + SWR/coalescing proxy under k6 spikes, honest laptop numbers (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://github.com/amaanmithani/newsload-lab",
+      "githubUrl": "https://github.com/amaanmithani/newsload-lab"
+    },
+    {
+      "name": "n1-doctor",
+      "description": "Find N+1 queries in OpenTelemetry traces and fail CI on new ones (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://github.com/amaanmithani/n1-doctor",
+      "githubUrl": "https://github.com/amaanmithani/n1-doctor"
+    },
+    {
+      "name": "modelmux",
+      "description": "OpenAI-compatible LLM gateway in Go: fallback chains, circuit breakers, exact+semantic cache, tenant budgets (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Go",
+        "HTML",
+        "Python",
+        "Shell",
+        "JavaScript",
+        "Dockerfile"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/modelmux",
+      "githubUrl": "https://github.com/amaanmithani/modelmux"
+    },
+    {
+      "name": "mini-vllm",
+      "description": "A small vLLM: paged KV cache, continuous batching, OpenAI API for Qwen2.5, measured on a T4 (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/mini-vllm",
+      "githubUrl": "https://github.com/amaanmithani/mini-vllm"
+    },
+    {
+      "name": "meterline",
+      "description": "Usage metering & billing: exactly-once counting on Redpanda + ClickHouse, late events, tiered pricing, Stripe meter sync (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Go",
+        "HTML"
+      ],
+      "category": "Data Science",
+      "liveUrl": "https://github.com/amaanmithani/meterline",
+      "githubUrl": "https://github.com/amaanmithani/meterline"
+    },
+    {
+      "name": "mcp-servers",
+      "description": "Three hardened MCP servers in TypeScript: read-only SQLite with layered query guards, symlink-safe filesystem sandbox, SSRF-safe HTTP fetch (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://github.com/amaanmithani/mcp-servers",
+      "githubUrl": "https://github.com/amaanmithani/mcp-servers"
+    },
+    {
+      "name": "docintel",
+      "description": "Table structure extraction (Table Transformer) scored with TEDS on PubTabNet; FUNSD key-value linking (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/docintel",
+      "githubUrl": "https://github.com/amaanmithani/docintel"
+    },
+    {
+      "name": "crdt-editor",
+      "description": "Collaborative text editing on a from-scratch RGA CRDT: property-tested convergence under reordering and duplication, WebSocket sync with offline merge (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "category": "Data Science",
+      "liveUrl": "https://github.com/amaanmithani/crdt-editor",
+      "githubUrl": "https://github.com/amaanmithani/crdt-editor"
+    },
+    {
+      "name": "cost-frontier",
+      "description": "What does LLM response caching really save on real traffic (WildChat), and what does each saving cost in wrong answers? (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/cost-frontier",
+      "githubUrl": "https://github.com/amaanmithani/cost-frontier"
+    },
+    {
+      "name": "code-search",
+      "description": "Semantic code search: tree-sitter chunking, BM25 + embeddings fused by RRF, cross-encoder rerank — evaluated with bootstrap CIs on docstring-stripped repos (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/code-search",
+      "githubUrl": "https://github.com/amaanmithani/code-search"
+    },
+    {
+      "name": "citecheck",
+      "description": "Checks whether citations in RAG answers support their sentences — with the checker itself validated against human labels (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/citecheck",
+      "githubUrl": "https://github.com/amaanmithani/citecheck"
+    },
+    {
+      "name": "agenttrace",
+      "description": "Record, replay and diff LLM agent runs (LangGraph + MCP) (built by Amaan Mithani with Claude; see Credits)",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "CSS",
+        "HTML"
+      ],
+      "category": "Backend Development",
+      "liveUrl": "https://github.com/amaanmithani/agenttrace",
+      "githubUrl": "https://github.com/amaanmithani/agenttrace"
+    },
+    {
+      "name": "Adversarial_Attacks",
+      "description": "Adversarial Attacks on Neural Networks: Approach, Findings, and Analysis",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "category": "Software Development",
+      "liveUrl": "https://github.com/amaanmithani/Adversarial_Attacks",
+      "githubUrl": "https://github.com/amaanmithani/Adversarial_Attacks"
+    }
+  ]
+}

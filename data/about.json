@@ -1,0 +1,19 @@
+{
+  "heading": "About Me",
+  "bio": "",
+  "philosophy": "C/C++ / Java / Python / JavaScript / Repeat",
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "4+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "3+"
+    },
+    {
+      "label": "Technologies",
+      "value": "53+"
+    }
+  ]
+}
