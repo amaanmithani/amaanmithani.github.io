@@ -15,7 +15,8 @@
       ],
       "category": "Data Science",
       "liveUrl": "https://github.com/amaanmithani/chat_avatar_llm",
-      "githubUrl": ""
+      "githubUrl": "",
+      "image": "assets/images/projects/chat-avatar.webp"
     },
     {
       "name": "Hybrid Optimization of NLP and Vision Transformers using RKD and QLoRA",
@@ -28,7 +29,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://www.ijraset.com/best-journal/hybrid-optimization-of-nlp-and-vision-transformers-using-recursive-knowledge-distillation-and-qlora",
-      "githubUrl": ""
+      "githubUrl": "",
+      "image": "assets/images/projects/rkd-transformers.webp"
     },
     {
       "name": "RKD_BERT_VIT",
@@ -41,7 +43,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://github.com/amaanmithani/RKD_BERT_VIT",
-      "githubUrl": ""
+      "githubUrl": "",
+      "image": "assets/images/projects/rkd-transformers.webp"
     },
     {
       "name": "triton-attn",
@@ -51,7 +54,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/triton-attn",
-      "githubUrl": "https://github.com/amaanmithani/triton-attn"
+      "githubUrl": "https://github.com/amaanmithani/triton-attn",
+      "image": "assets/images/projects/triton-attn.webp"
     },
     {
       "name": "structbench",
@@ -61,7 +65,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/structbench",
-      "githubUrl": "https://github.com/amaanmithani/structbench"
+      "githubUrl": "https://github.com/amaanmithani/structbench",
+      "image": "assets/images/projects/structbench.webp"
     },
     {
       "name": "sales-copilot",
@@ -71,7 +76,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/sales-copilot",
-      "githubUrl": "https://github.com/amaanmithani/sales-copilot"
+      "githubUrl": "https://github.com/amaanmithani/sales-copilot",
+      "image": "assets/images/projects/sales-copilot.webp"
     },
     {
       "name": "raftkv",
@@ -84,7 +90,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/raftkv",
-      "githubUrl": "https://github.com/amaanmithani/raftkv"
+      "githubUrl": "https://github.com/amaanmithani/raftkv",
+      "image": "assets/images/projects/raftkv.webp"
     },
     {
       "name": "polyglot-rag",
@@ -94,7 +101,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/polyglot-rag",
-      "githubUrl": "https://github.com/amaanmithani/polyglot-rag"
+      "githubUrl": "https://github.com/amaanmithani/polyglot-rag",
+      "image": "assets/images/projects/polyglot-rag.webp"
     },
     {
       "name": "newsload-lab",
@@ -106,7 +114,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://github.com/amaanmithani/newsload-lab",
-      "githubUrl": "https://github.com/amaanmithani/newsload-lab"
+      "githubUrl": "https://github.com/amaanmithani/newsload-lab",
+      "image": "assets/images/projects/newsload-lab.webp"
     },
     {
       "name": "n1-doctor",
@@ -117,7 +126,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://github.com/amaanmithani/n1-doctor",
-      "githubUrl": "https://github.com/amaanmithani/n1-doctor"
+      "githubUrl": "https://github.com/amaanmithani/n1-doctor",
+      "image": "assets/images/projects/n1-doctor.webp"
     },
     {
       "name": "modelmux",
@@ -132,7 +142,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/modelmux",
-      "githubUrl": "https://github.com/amaanmithani/modelmux"
+      "githubUrl": "https://github.com/amaanmithani/modelmux",
+      "image": "assets/images/projects/modelmux.webp"
     },
     {
       "name": "mini-vllm",
@@ -142,7 +153,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/mini-vllm",
-      "githubUrl": "https://github.com/amaanmithani/mini-vllm"
+      "githubUrl": "https://github.com/amaanmithani/mini-vllm",
+      "image": "assets/images/projects/mini-vllm.webp"
     },
     {
       "name": "meterline",
@@ -153,7 +165,8 @@
       ],
       "category": "Data Science",
       "liveUrl": "https://github.com/amaanmithani/meterline",
-      "githubUrl": "https://github.com/amaanmithani/meterline"
+      "githubUrl": "https://github.com/amaanmithani/meterline",
+      "image": "assets/images/projects/meterline.webp"
     },
     {
       "name": "mcp-servers",
@@ -164,7 +177,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://github.com/amaanmithani/mcp-servers",
-      "githubUrl": "https://github.com/amaanmithani/mcp-servers"
+      "githubUrl": "https://github.com/amaanmithani/mcp-servers",
+      "image": "assets/images/projects/mcp-servers.webp"
     },
     {
       "name": "docintel",
@@ -174,7 +188,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/docintel",
-      "githubUrl": "https://github.com/amaanmithani/docintel"
+      "githubUrl": "https://github.com/amaanmithani/docintel",
+      "image": "assets/images/projects/docintel.webp"
     },
     {
       "name": "crdt-editor",
@@ -187,7 +202,8 @@
       ],
       "category": "Data Science",
       "liveUrl": "https://github.com/amaanmithani/crdt-editor",
-      "githubUrl": "https://github.com/amaanmithani/crdt-editor"
+      "githubUrl": "https://github.com/amaanmithani/crdt-editor",
+      "image": "assets/images/projects/crdt-editor.webp"
     },
     {
       "name": "cost-frontier",
@@ -197,7 +213,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/cost-frontier",
-      "githubUrl": "https://github.com/amaanmithani/cost-frontier"
+      "githubUrl": "https://github.com/amaanmithani/cost-frontier",
+      "image": "assets/images/projects/cost-frontier.webp"
     },
     {
       "name": "code-search",
@@ -207,7 +224,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/code-search",
-      "githubUrl": "https://github.com/amaanmithani/code-search"
+      "githubUrl": "https://github.com/amaanmithani/code-search",
+      "image": "assets/images/projects/code-search.webp"
     },
     {
       "name": "citecheck",
@@ -218,7 +236,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/citecheck",
-      "githubUrl": "https://github.com/amaanmithani/citecheck"
+      "githubUrl": "https://github.com/amaanmithani/citecheck",
+      "image": "assets/images/projects/citecheck.webp"
     },
     {
       "name": "agenttrace",
@@ -231,7 +250,8 @@
       ],
       "category": "Backend Development",
       "liveUrl": "https://github.com/amaanmithani/agenttrace",
-      "githubUrl": "https://github.com/amaanmithani/agenttrace"
+      "githubUrl": "https://github.com/amaanmithani/agenttrace",
+      "image": "assets/images/projects/agenttrace.webp"
     },
     {
       "name": "Adversarial_Attacks",
@@ -241,7 +261,8 @@
       ],
       "category": "Software Development",
       "liveUrl": "https://github.com/amaanmithani/Adversarial_Attacks",
-      "githubUrl": "https://github.com/amaanmithani/Adversarial_Attacks"
+      "githubUrl": "https://github.com/amaanmithani/Adversarial_Attacks",
+      "image": "assets/images/projects/adversarial-attacks.webp"
     }
   ]
 }

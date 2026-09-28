@@ -26,7 +26,8 @@
         "Express",
         "PostgreSQL",
         "Stripe"
-      ]
+      ],
+      "logo": "assets/images/logos/knowledge-agents.png"
     },
     {
       "company": "Haven",
@@ -50,7 +51,8 @@
         "Redis",
         "OpenAI",
         "CI/CD"
-      ]
+      ],
+      "logo": "assets/images/logos/haven.png"
     },
     {
       "company": "Enpointe IO",
@@ -91,7 +93,8 @@
         "DynamoDB",
         "GPT-3.5",
         "AWS CloudWatch"
-      ]
+      ],
+      "logo": "assets/images/logos/wolters-kluwer.svg"
     }
   ]
 }

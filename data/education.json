@@ -8,7 +8,8 @@
       "startDate": "2026",
       "endDate": "2026",
       "gpa": "",
-      "honors": []
+      "honors": [],
+      "logo": "assets/images/logos/nyu.svg"
     },
     {
       "institution": "Symbiosis International University",
@@ -17,7 +18,8 @@
       "startDate": "2023",
       "endDate": "2023",
       "gpa": "",
-      "honors": []
+      "honors": [],
+      "logo": "assets/images/logos/symbiosis.png"
     }
   ],
   "certifications": [
