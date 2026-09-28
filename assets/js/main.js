@@ -185,7 +185,16 @@
     }
 
     if (highlightsEl && about.highlights) {
-      highlightsEl.innerHTML = about.highlights
+      var photo = about.photo;
+      var photoHtml = photo && photo.src
+        ? '<figure class="about-portrait">' +
+          '<picture>' +
+          (photo.fallback ? '<source srcset="' + photo.src + '" type="image/webp">' : '') +
+          '<img src="' + (photo.fallback || photo.src) + '" alt="' + (photo.alt || '') + '" width="720" height="900" loading="lazy" decoding="async">' +
+          '</picture>' +
+          '</figure>'
+        : '';
+      highlightsEl.innerHTML = photoHtml + about.highlights
         .map(function (h) {
           return '<div class="highlight-item">' +
             '<div class="highlight-value">' + h.value + '</div>' +
@@ -194,6 +203,22 @@
         })
         .join('');
     }
+  }
+
+  function orgInitials(name) {
+    return (name || '')
+      .split(/\s+/)
+      .filter(function (w) { return /^[A-Za-z]/.test(w); })
+      .slice(0, 2)
+      .map(function (w) { return w.charAt(0).toUpperCase(); })
+      .join('');
+  }
+
+  function orgMark(name, logo) {
+    if (logo) {
+      return '<span class="org-mark"><img src="' + logo + '" alt="' + (name || '') + ' logo" loading="lazy" decoding="async"></span>';
+    }
+    return '<span class="org-mark org-mark--monogram" aria-hidden="true">' + orgInitials(name) + '</span>';
   }
 
   function renderExperience(exp) {
@@ -211,7 +236,7 @@
             '<div class="experience-date">' + (pos.startDate || '') + (pos.endDate ? ' - ' + pos.endDate : '') + '</div>' +
             '<div class="experience-info">' +
             '<h3>' + (pos.title || '') + '</h3>' +
-            '<p class="experience-company">' + (pos.company || '') + '</p>' +
+            '<p class="experience-company org-lockup">' + orgMark(pos.company, pos.logo) + '<span>' + (pos.company || '') + '</span></p>' +
             '<p class="experience-description">' + (pos.description || '') + '</p>' +
             '</div>' +
             '<div class="experience-location">' + (pos.location || '') + '</div>' +
@@ -291,9 +316,13 @@
             linksHtml.push('<a href="' + proj.githubUrl + '" target="_blank" rel="noopener">Source &rarr;</a>');
 
           return '<div class="project-item">' +
-            '<div class="project-visual">' +
-            '<div class="project-visual-inner">' + (proj.name || '') + '</div>' +
-            '</div>' +
+            (proj.image
+              ? '<div class="project-visual project-cover">' +
+                '<img src="' + proj.image + '" alt="Illustration for ' + (proj.name || 'project') + '" loading="lazy" decoding="async">' +
+                '</div>'
+              : '<div class="project-visual">' +
+                '<div class="project-visual-inner">' + (proj.name || '') + '</div>' +
+                '</div>') +
             '<div class="project-info">' +
             '<div class="project-category">' + category + '</div>' +
             '<h3 class="project-name">' + (proj.name || '') + '</h3>' +
@@ -332,7 +361,7 @@
             '<div class="education-year">' + (entry.startDate || '') + (entry.endDate ? ' - ' + entry.endDate : '') + '</div>' +
             '<div class="education-info">' +
             '<h3>' + (entry.degree || '') + '</h3>' +
-            '<p class="education-institution">' + (entry.institution || '') + '</p>' +
+            '<p class="education-institution org-lockup">' + orgMark(entry.institution, entry.logo) + '<span>' + (entry.institution || '') + '</span></p>' +
             (meta.length ? '<p class="education-meta">' + meta.join(' | ') + '</p>' : '') +
             honorsHtml +
             '</div>' +

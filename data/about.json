@@ -1,19 +1,24 @@
 {
   "heading": "About Me",
-  "bio": "",
-  "philosophy": "C/C++ / Java / Python / JavaScript / Repeat",
+  "bio": "I'm a software engineer who builds LLM systems that hold up in production. At Knowledge Agents I architect the agent-orchestration core: LangGraph and MCP pipelines that answer support questions with cited sources in 80+ languages. I also built the provider-agnostic RAG layer that lets the product swap between Anthropic, OpenAI, Google and Azure with a single config change. Before that I co-founded Haven, a privacy app built in Flutter on Firebase and GCP. Haven placed Top 3 of 150+ teams at NYU Stern's 2025 Entrepreneur Challenge and was featured in Entrepreneur Magazine. Earlier I built backend services for Outlook India's news platform at Enpointe IO and a generative-AI sales assistant at Wolters Kluwer. I hold an MS in Computer Engineering from NYU and a B.Tech in Computer Science from Symbiosis International University.",
+  "philosophy": "Python / TypeScript / Go / LangGraph / Ship, measure, repeat",
   "highlights": [
     {
-      "label": "Years Experience",
-      "value": "4+"
-    },
-    {
-      "label": "Projects Completed",
+      "label": "Years shipping software",
       "value": "3+"
     },
     {
-      "label": "Technologies",
-      "value": "53+"
+      "label": "Projects on this page",
+      "value": "21"
+    },
+    {
+      "label": "Of 150+ teams, NYU Stern 2025",
+      "value": "Top 3"
     }
-  ]
+  ],
+  "photo": {
+    "src": "assets/images/amaan-portrait.webp",
+    "fallback": "assets/images/amaan-portrait.jpg",
+    "alt": "Portrait of Amaan Mithani"
+  }
 }
