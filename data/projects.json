@@ -48,7 +48,7 @@
     },
     {
       "name": "triton-attn",
-      "description": "FlashAttention-2 style attention in Triton, forward + backward, measured on a T4 (built by Amaan Mithani with Claude; see Credits)",
+      "description": "FlashAttention-2 style attention in Triton, forward + backward, measured on a T4",
       "technologies": [
         "Python"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "name": "structbench",
-      "description": "How reliably do LLMs return schema-valid JSON? Prompt-only vs JSON mode vs grammar-constrained vs repair loop, with Wilson intervals (built by Amaan Mithani with Claude; see Credits)",
+      "description": "How reliably do LLMs return schema-valid JSON? Prompt-only vs JSON mode vs grammar-constrained vs repair loop, with Wilson intervals",
       "technologies": [
         "Python"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "name": "sales-copilot",
-      "description": "Live sales-call copilot: streaming faster-whisper ASR + cue detection, measured WER, F1 and latency (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Live sales-call copilot: streaming faster-whisper ASR + cue detection, measured WER, F1 and latency",
       "technologies": [
         "Python"
       ],
@@ -81,7 +81,7 @@
     },
     {
       "name": "raftkv",
-      "description": "Replicated KV store on a from-scratch Raft: PreVote, snapshots, client sessions, linearizability-checked under 1,000 fault schedules, WASM visualizer (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Replicated KV store on a from-scratch Raft: PreVote, snapshots, client sessions, linearizability-checked under 1,000 fault schedules, WASM visualizer",
       "technologies": [
         "Go",
         "Python",
@@ -95,7 +95,7 @@
     },
     {
       "name": "polyglot-rag",
-      "description": "Multilingual support RAG with an honest 24-language retrieval table (Belebele) (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Multilingual support RAG with an honest 24-language retrieval table (Belebele)",
       "technologies": [
         "Python"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "name": "newsload-lab",
-      "description": "Breaking-news load lab: Next.js ISR + SWR/coalescing proxy under k6 spikes, honest laptop numbers (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Breaking-news load lab: Next.js ISR + SWR/coalescing proxy under k6 spikes, honest laptop numbers",
       "technologies": [
         "TypeScript",
         "JavaScript",
@@ -119,7 +119,7 @@
     },
     {
       "name": "n1-doctor",
-      "description": "Find N+1 queries in OpenTelemetry traces and fail CI on new ones (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Find N+1 queries in OpenTelemetry traces and fail CI on new ones",
       "technologies": [
         "TypeScript",
         "JavaScript"
@@ -131,7 +131,7 @@
     },
     {
       "name": "modelmux",
-      "description": "OpenAI-compatible LLM gateway in Go: fallback chains, circuit breakers, exact+semantic cache, tenant budgets (built by Amaan Mithani with Claude; see Credits)",
+      "description": "OpenAI-compatible LLM gateway in Go: fallback chains, circuit breakers, exact+semantic cache, tenant budgets",
       "technologies": [
         "Go",
         "HTML",
@@ -147,7 +147,7 @@
     },
     {
       "name": "mini-vllm",
-      "description": "A small vLLM: paged KV cache, continuous batching, OpenAI API for Qwen2.5, measured on a T4 (built by Amaan Mithani with Claude; see Credits)",
+      "description": "A small vLLM: paged KV cache, continuous batching, OpenAI API for Qwen2.5, measured on a T4",
       "technologies": [
         "Python"
       ],
@@ -158,7 +158,7 @@
     },
     {
       "name": "meterline",
-      "description": "Usage metering & billing: exactly-once counting on Redpanda + ClickHouse, late events, tiered pricing, Stripe meter sync (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Usage metering & billing: exactly-once counting on Redpanda + ClickHouse, late events, tiered pricing, Stripe meter sync",
       "technologies": [
         "Go",
         "HTML"
@@ -170,7 +170,7 @@
     },
     {
       "name": "mcp-servers",
-      "description": "Three hardened MCP servers in TypeScript: read-only SQLite with layered query guards, symlink-safe filesystem sandbox, SSRF-safe HTTP fetch (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Three hardened MCP servers in TypeScript: read-only SQLite with layered query guards, symlink-safe filesystem sandbox, SSRF-safe HTTP fetch",
       "technologies": [
         "TypeScript",
         "JavaScript"
@@ -182,7 +182,7 @@
     },
     {
       "name": "docintel",
-      "description": "Table structure extraction (Table Transformer) scored with TEDS on PubTabNet; FUNSD key-value linking (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Table structure extraction (Table Transformer) scored with TEDS on PubTabNet; FUNSD key-value linking",
       "technologies": [
         "Python"
       ],
@@ -193,7 +193,7 @@
     },
     {
       "name": "crdt-editor",
-      "description": "Collaborative text editing on a from-scratch RGA CRDT: property-tested convergence under reordering and duplication, WebSocket sync with offline merge (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Collaborative text editing on a from-scratch RGA CRDT: property-tested convergence under reordering and duplication, WebSocket sync with offline merge",
       "technologies": [
         "TypeScript",
         "CSS",
@@ -207,7 +207,7 @@
     },
     {
       "name": "cost-frontier",
-      "description": "What does LLM response caching really save on real traffic (WildChat), and what does each saving cost in wrong answers? (built by Amaan Mithani with Claude; see Credits)",
+      "description": "What does LLM response caching really save on real traffic (WildChat), and what does each saving cost in wrong answers?",
       "technologies": [
         "Python"
       ],
@@ -218,7 +218,7 @@
     },
     {
       "name": "code-search",
-      "description": "Semantic code search: tree-sitter chunking, BM25 + embeddings fused by RRF, cross-encoder rerank — evaluated with bootstrap CIs on docstring-stripped repos (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Semantic code search: tree-sitter chunking, BM25 + embeddings fused by RRF, cross-encoder rerank — evaluated with bootstrap CIs on docstring-stripped repos",
       "technologies": [
         "Python"
       ],
@@ -229,7 +229,7 @@
     },
     {
       "name": "citecheck",
-      "description": "Checks whether citations in RAG answers support their sentences — with the checker itself validated against human labels (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Checks whether citations in RAG answers support their sentences — with the checker itself validated against human labels",
       "technologies": [
         "Python",
         "HTML"
@@ -241,7 +241,7 @@
     },
     {
       "name": "agenttrace",
-      "description": "Record, replay and diff LLM agent runs (LangGraph + MCP) (built by Amaan Mithani with Claude; see Credits)",
+      "description": "Record, replay and diff LLM agent runs (LangGraph + MCP)",
       "technologies": [
         "Python",
         "TypeScript",
