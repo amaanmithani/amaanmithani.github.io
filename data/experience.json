@@ -3,6 +3,7 @@
   "positions": [
     {
       "company": "Knowledge Agents",
+      "companyUrl": "https://knowledgeagents.com/",
       "title": "Software Engineer",
       "location": "",
       "startDate": "2026",
@@ -31,6 +32,7 @@
     },
     {
       "company": "Haven",
+      "companyUrl": "https://nyusternberkleycenter.com/2025/04/taking-control-of-your-digital-footprint-with-haven/",
       "title": "Founding Engineer (Co-Founder)",
       "location": "",
       "startDate": "2024",
@@ -56,6 +58,7 @@
     },
     {
       "company": "Enpointe IO",
+      "companyUrl": "https://enpointe.io/",
       "title": "Software Engineer",
       "location": "",
       "startDate": "2024",
@@ -75,6 +78,7 @@
     },
     {
       "company": "Wolters Kluwer",
+      "companyUrl": "https://www.wolterskluwer.com/",
       "title": "Software Engineer Intern",
       "location": "",
       "startDate": "2023",

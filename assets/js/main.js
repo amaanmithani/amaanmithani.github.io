@@ -232,11 +232,15 @@
     if (listEl && exp.positions) {
       listEl.innerHTML = exp.positions
         .map(function (pos) {
+          var companyName = '<span>' + (pos.company || '') + '</span>';
+          var companyLink = pos.companyUrl
+            ? '<a class="experience-company-link" href="' + pos.companyUrl + '" target="_blank" rel="noopener noreferrer" aria-label="' + (pos.company || '') + ' (opens in a new tab)">' + companyName + '<span aria-hidden="true">↗</span></a>'
+            : companyName;
           return '<div class="experience-item">' +
             '<div class="experience-date">' + (pos.startDate || '') + (pos.endDate ? ' - ' + pos.endDate : '') + '</div>' +
             '<div class="experience-info">' +
             '<h3>' + (pos.title || '') + '</h3>' +
-            '<p class="experience-company org-lockup">' + orgMark(pos.company, pos.logo) + '<span>' + (pos.company || '') + '</span></p>' +
+            '<p class="experience-company org-lockup">' + orgMark(pos.company, pos.logo) + companyLink + '</p>' +
             '<p class="experience-description">' + (pos.description || '') + '</p>' +
             '</div>' +
             '<div class="experience-location">' + (pos.location || '') + '</div>' +
